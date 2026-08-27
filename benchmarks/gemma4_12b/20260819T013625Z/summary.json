@@ -1,0 +1,27 @@
+{
+  "script_version": "replay-v1-v7.7-prompt",
+  "model": "gemma4:12b",
+  "model_label": "Gemma4 12B",
+  "settings": {
+    "num_ctx": 16384,
+    "think": false,
+    "temperature": 0.0,
+    "http_timeout_seconds": 240,
+    "production_timeout_seconds": 60.0
+  },
+  "rows_requested": [
+    36,
+    45,
+    56
+  ],
+  "rows_completed": 2,
+  "status_counts": {
+    "VERIFIED": 1,
+    "LIKELY_SERIES": 1
+  },
+  "would_timeout_at_60s_count": 0,
+  "total_model_wall_seconds": 26.042,
+  "average_model_wall_seconds": 13.021,
+  "run_wall_seconds": 26.163,
+  "created_at": "2026-08-19T01:36:51.970928+00:00"
+}

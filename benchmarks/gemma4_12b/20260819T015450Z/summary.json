@@ -1,0 +1,22 @@
+{
+  "script_version": "replay-v1-v7.7-prompt",
+  "model": "gemma4:12b",
+  "model_label": "Gemma4 12B",
+  "settings": {
+    "num_ctx": 16384,
+    "think": false,
+    "temperature": 0.0,
+    "http_timeout_seconds": 240,
+    "production_timeout_seconds": 60.0
+  },
+  "rows_requested": [
+    36
+  ],
+  "rows_completed": 0,
+  "status_counts": {},
+  "would_timeout_at_60s_count": 0,
+  "total_model_wall_seconds": 0.0,
+  "average_model_wall_seconds": null,
+  "run_wall_seconds": 0.047,
+  "created_at": "2026-08-19T01:54:50.826766+00:00"
+}
